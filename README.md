@@ -1,54 +1,63 @@
-# Astro Starter Kit: Basics
+# PointaFam E-Commerce Platform
 
-```sh
-npm create astro@latest -- --template basics
-```
+PointaFam is an e-commerce platform that connects rural farmers with urban retailers, facilitating the trade of fresh produce and fostering a sustainable supply chain.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
+## Table of Contents
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+- [Introduction](#introduction)
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
 
-![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
+## Introduction
 
-## 🚀 Project Structure
+PointaFam aims to bridge the gap between rural farmers and urban retailers by providing a digital marketplace for buying and selling agricultural products. The platform offers a user-friendly interface for farmers to list their produce, manage inventory, and connect with potential buyers. On the other hand, retailers can browse products, place orders, and track deliveries seamlessly.
 
-Inside of your Astro project, you'll see the following folders and files:
+## Features
 
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src/
-│   ├── components/
-│   │   └── Card.astro
-│   ├── layouts/
-│   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+- **Product Listings**: Farmers can create detailed listings for their products, including images, descriptions, prices, and availability.
+- **Search and Filter**: Users can search for specific products and apply filters based on categories, prices, and location.
+- **Order Management**: Retailers can place orders, manage shipments, and track delivery status in real-time.
+- **User Authentication**: Secure authentication and authorization mechanisms for farmers, retailers, and administrators.
+- **Responsive Design**: A mobile-friendly and responsive UI to ensure a seamless browsing experience across devices.
+- **Admin Dashboard**: Administrative tools for managing users, products, orders, and generating reports.
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+## Tech Stack
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+- **Frontend**:
+  - HTML
+  - CSS (with Tailwind CSS for styling)
+  - JavaScript (ES6+ with Alpine.js for interactivity)
 
-Any static assets, like images, can be placed in the `public/` directory.
+- **Backend**:
+  - Go (Golang)
+  - Fiber Framework (for building fast and efficient HTTP APIs)
 
-## 🧞 Commands
+- **Database**:
+  - (Optional) MongoDB, PostgreSQL, or MySQL for storing product and user data
 
-All commands are run from the root of the project, from a terminal:
+## Getting Started
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+### Prerequisites
 
-## 👀 Want to learn more?
+- Go (>=1.16) installed on your machine
+- Node.js and npm (for frontend development)
+- (Optional) MongoDB, PostgreSQL, or MySQL database
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/your-username/pointafam.git
+
+### Usage
+
+Farmers: Sign up, list products, manage inventory, view orders.
+Retailers: Browse products, place orders, track deliveries.
+Admins: Manage users, products, orders, generate reports.
