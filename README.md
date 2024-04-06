@@ -59,5 +59,7 @@ PointaFam aims to bridge the gap between rural farmers and urban retailers by pr
 ### Usage
 
 Farmers: Sign up, list products, manage inventory, view orders.
+
 Retailers: Browse products, place orders, track deliveries.
+
 Admins: Manage users, products, orders, generate reports.
